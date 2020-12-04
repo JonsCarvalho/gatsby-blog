@@ -8,7 +8,7 @@ module.exports = {
     position: `Desenvolvedor Mobile`,
     description: `Um blog sobre desenvolvimento mobile e outras coisas legais.`,
     author: `@jonscarvalho`,
-    siteUrl: `https://johndoe.com.br`,
+    siteUrl: `https://jonscarvalho.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
