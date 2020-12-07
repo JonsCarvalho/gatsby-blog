@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Layout from "../components/Layout"
-import Search from "../components/Search"
+import Layout from "../components/layout"
+import Search from "../components/search"
 import SEO from "../components/seo"
 
 const SearchPage = () => (
