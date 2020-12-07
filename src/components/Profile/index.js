@@ -1,7 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
-import Avatar from '../avatar'
+import Avatar from '../Avatar'
 import * as S from './styles'
 
 const Profile = () => {
