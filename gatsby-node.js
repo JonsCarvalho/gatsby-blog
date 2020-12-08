@@ -37,7 +37,16 @@ exports.createPages = ({ graphql, actions }) => {
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               description
               title
-              image
+              image {
+                childImageSharp {
+                  resolutions(width: 400) {
+                    width
+                    height
+                    src
+                    srcSet
+                  }
+                }
+              }
             }
             timeToRead
           }
